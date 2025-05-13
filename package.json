@@ -1,0 +1,20 @@
+{
+  "name": "hackathon_website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google/generative-ai": "^0.11.0",
+    "body-parser": "^1.20.2",
+    "deepl": "^1.0.13",
+    "deepl-node": "^1.13.0",
+    "express": "^4.19.2"
+  }
+}

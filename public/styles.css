@@ -1,0 +1,137 @@
+/* Temel Ayarlar */
+html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background: linear-gradient(to right, #0f0c29, #302b63, #24243e); /* Modern gradient arka plan */
+    color: #d0d0d0; /* Yüksek kontrastlı metin renkleri */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: right;
+    justify-content: left;
+}
+
+.container {
+    width: 100%; /* Konteyneri tam genişlik yap */
+    height: 100%; /* Konteyneri tam yükseklik yap */
+    display: flex; /* Flexbox kullanarak içeriği düzenle */
+    justify-content: left;
+    align-items: center;
+    background-color: white; /* Arka planı beyaz yap */
+    box-sizing: border-box; /* Padding ve border dahil boyutları hesapla */
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%; /* Row genişliğini %90 yap */
+}
+
+
+.col-md-6 {
+    width: 50%; /* Her sütunu %50 genişlik yap */
+    padding: 20px; /* İç boşluk */
+}
+
+.title {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.content-text p {
+    color: #666;
+    line-height: 1.6;
+}
+
+.read-more {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.single-image {
+    text-align: center;
+}
+
+.single-image img {
+    width: 100%; /* Resmi genişliğe göre ayarla */
+    height: auto;
+}
+header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background: transparent; /* Clear background for the header */
+    box-sizing: border-box;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    margin: 0;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold; /* Bold font for better readability */
+}
+
+main {
+    padding: 30px;
+    text-align: center;
+    max-width: 960px; /* Limit content width for better aesthetics */
+}
+
+h1 {
+    font-size: 44px; /* Larger font size for the title */
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.2); /* Text shadow for depth */
+}
+br{
+    height: 100px;
+}
+p {
+    font-size: 16px; /* Larger font size for subtitle */
+    margin-bottom: 40px;
+    opacity: 0.9; /* Slight transparency */
+}
+
+.buttons button {
+    background-color: orange; /* More vibrant button color */
+    color: black;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+    margin: 0 10px;
+    margin-bottom: 20px;
+}
+
+.buttons button:hover {
+    background-color: #ffcc00; /* Change color on hover */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15); /* Subtle shadow for 3D effect */
+}

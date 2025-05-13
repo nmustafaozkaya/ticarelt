@@ -1,0 +1,61 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+}
+
+.speech-container {
+    display: flex;
+    flex-direction: column; /* İçerikleri yataydan dikeye değiştir */
+    width: 90%;
+    max-width: 800px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    overflow: hidden; /* Taşan içerikleri kes */
+}
+
+.input-container {
+    flex: 1;
+    padding: 20px;
+    border-bottom: 1px solid #ddd; /* Dikey çizgi yerine yatay çizgi */
+}
+
+.speech-form {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#user-input {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#send-btn, #listen-btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#send-btn:hover, #listen-btn:hover {
+    background-color: #0056b3;
+}
+
+.speec-box {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
+    background-color: #f8f9fa;
+    color: #333;
+}
